@@ -29,3 +29,28 @@ enter the one already created on my AWS account
 after everything has been run successfully
 terraform destroy
 to delete the resources and prevent uneccesary costs
+
+potential and industry best standard improvements:
+> assume a role instead of providing credentials to conenct my environment
+> modular organized folder structure
+terraform/ 
+├─ modules/ 
+│  ├─ network/
+│  │  ├─ main.tf
+│  │  ├─ variables.tf
+│  │  └─ outputs.tf
+│  ├─ compute/
+│  │  ├─ main.tf
+│  │  ├─ variables.tf
+│  │  └─ outputs.tf
+│  └─ storage/
+│     ├─ main.tf
+│     ├─ variables.tf
+│     └─ outputs.tf
+├─ environments/
+│  └─ dev/
+│     ├─ main.tf
+│     ├─ variables.tf
+│     ├─ terraform.tfvars
+│     └─ user-data.sh
+└─ versions.tf
