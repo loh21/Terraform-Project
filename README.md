@@ -1,7 +1,7 @@
 First I installed WSL on my local machine as I use a windows operating system. This was so I can emulate a production environment while testing, while having the benefit of using a code editor. (In this case VS code)
 
-wsl --install 
-on powershell (admin)
+- wsl --install
+- on powershell (admin)
 
 - on the VS code editor WSL terminal (WSLConnector)
   - sudo apt update
