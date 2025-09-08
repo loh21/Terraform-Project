@@ -6,9 +6,9 @@ First I installed WSL on my local machine as I use a windows operating system. T
 - on the VS code editor WSL terminal (WSLConnector)
   - sudo apt update
   - sudo apt install -y unzip curl
-followed:
+- followed:
   - https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
-and installed:
+- and installed:
   - curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
   - unzip awscliv2.zip
   - sudo ./aws/install
