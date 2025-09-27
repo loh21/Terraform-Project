@@ -36,7 +36,7 @@ First I installed WSL on my local machine as I use a windows operating system. T
   - terraform destroy
   to delete the resources and prevent uneccesary costs
 
-- potential and industry best standard improvements:
+Potential and industry best standard improvements:
   - assume a role instead of providing credentials to conenct my environment,
   - modular organized folder structure
 ```text
