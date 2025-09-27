@@ -1,3 +1,7 @@
+About the project
+
+This is my first project using the cloud agnostic infrastructure as code (IaC) tool terraform. The purpose of this project is to launch network, compute and storage resources from a linux environment.
+
 First I installed WSL on my local machine as I use a windows operating system. This was so I can emulate a production environment while testing, while having the benefit of using a code editor. (In this case VS code)
 
 - on powershell (admin)
